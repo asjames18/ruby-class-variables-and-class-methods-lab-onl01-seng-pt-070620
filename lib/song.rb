@@ -59,7 +59,7 @@ end
       # if music[genre] += 1
       # # else
       # #   music[genre] = 1
-        end
+        # end
     end
   # genre_count
   end
