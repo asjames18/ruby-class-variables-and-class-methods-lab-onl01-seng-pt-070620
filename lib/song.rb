@@ -57,8 +57,8 @@ end
     music = {"pop"=>1, "rap"=>2}
     @@genres.each do |genre|
       if music[genre] += 1
-      # else
-      #   music[genre] = 1
+      else
+        music[genre] = 1
         end
     end
   @@genre.count
