@@ -57,7 +57,7 @@ end
     music = {}
     @@genres.each do |genre|
     end
-    @@genres.count
+    @@genres.count.uniq
 
   end
 end
