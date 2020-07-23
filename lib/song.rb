@@ -58,6 +58,6 @@ end
     @@genres.each.uniq do |genre|
 
     end
-  @@genres.self.genre_count
+  @@genres.itself.genre_count
   end
 end
