@@ -59,3 +59,5 @@ end
     end
   end
 end
+
+self.genre_count
