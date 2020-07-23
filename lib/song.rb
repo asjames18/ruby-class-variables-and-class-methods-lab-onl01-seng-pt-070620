@@ -57,7 +57,7 @@ end
     music = {}
     @@genres.each do |genre|
     end
-    @genres.genre_count
+    @@genres.count
 
   end
 end
