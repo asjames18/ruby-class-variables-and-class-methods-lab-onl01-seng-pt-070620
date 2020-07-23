@@ -61,7 +61,7 @@ end
       # #   music[genre] = 1
         # end
     end
-  genre.count
+  @@genre.count
   end
 
 end
