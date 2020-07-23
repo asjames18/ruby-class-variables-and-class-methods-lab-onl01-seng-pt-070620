@@ -54,8 +54,11 @@ end
   end
 
   def self.genre_count
-    music = {"pop"=>1, "rap"=>2}
+    music = {}
     @@genres.each do |genre|
+      if genre_count[genre] += 1
+      else
+        genre_count[genre] = 1
     end
   end
 end
