@@ -56,12 +56,10 @@ end
   def self.genre_count
     music = {}
     @@genres.each.uniq do |genre|
-      # if music[genre] += 1
-      # else
-      #   music[genre] = 1
+      if music[genre] += 1
+      else
+        music[genre] = 1
         end
-
-
     end
   genre_count
   end
