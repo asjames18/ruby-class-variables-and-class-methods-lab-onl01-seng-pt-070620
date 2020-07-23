@@ -57,8 +57,9 @@ end
     music = {}
     @@genres.each do |genre|
       if genre_count[genre] += 1
-      end
-      self.genre_count
+        genre_count[genre] += 1
+        else #if it's a new genre
+          genre_count[genre] = 1
     end
   end
 end
