@@ -54,7 +54,7 @@ end
   end
 
   def self.genre_count
-    music = {}
+    music = {genre}
     @@genres.each do |genre|
     end
     @@genres.count
