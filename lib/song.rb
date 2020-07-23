@@ -58,6 +58,6 @@ end
     @@genres.each do |genre|
 
     end
-  @@genres.all?.count
+  @@genres.count
   end
 end
